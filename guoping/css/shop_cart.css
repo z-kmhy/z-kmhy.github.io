@@ -1,0 +1,264 @@
+.address{
+	width: 1200px;
+	height: 60px;
+	margin:20px auto 0;
+}
+.address span{
+	float: left;
+	width: 90px;
+	height: 100%;
+	font-size: 18px;
+	color: #F01511;
+}
+.address i{
+	float: left;
+	width: 70px;
+	height: 100%;
+	text-align: center;
+	color: #666;
+}
+.address div{
+	float: left;
+	width: 108px;
+	height: 23px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	color: #666;
+	
+}
+.address p{
+	width: 90px;
+	height: 23px;
+	line-height: 23px;
+	text-indent: 5px;
+	float: left;
+}
+.address em{
+	float: left;
+	width: 18px;
+	height: 23px;
+	background: url(##/img/xbt#png)no-repeat -277px -72px ;
+	cursor: pointer;
+}
+#card-nav{
+	width: 1198px;
+	height: 42px;
+	border: 1px solid #ccc;
+	background: #F5F5F5;
+	margin: 0 auto 20px;
+}
+#card-nav>div{
+	float: left;
+	height: 100%;
+	color: #666;
+	text-align: center;
+	line-height: 42px;
+}
+#card-nav>div:nth-of-type(1){
+	width: 100px;
+}
+#card-nav>div:nth-of-type(1) input{
+	position: relative;
+	top: 2px;
+}
+#card-nav>div:nth-of-type(2){
+	width: 600px;
+	text-align: left;
+	text-indent: 60px;
+}
+#card-nav>div:nth-of-type(3){
+	width: 160px;
+}
+#card-nav>div:nth-of-type(4){
+	width: 100px;
+}
+#card-nav>div:nth-of-type(5){
+	width: 120px;
+}
+#card-nav>div:nth-of-type(6){
+	width: 118px;
+}
+#content{
+	width: 1200px;
+	margin: 0 auto 40px;
+	border-top: 1px solid #aaa;
+	overflow: hidden;
+}
+#content .content{
+	width: 1198px;
+	border: 1px solid #ccc;
+	float: left;
+	border-bottom: none;
+}
+#content .content ul{
+	width: 1198px;
+	float: left;
+}
+#content .content li{
+	width: 100%;
+	height: 106px;
+	border-bottom: 1px solid #ccc;
+}
+#content .content .active{
+	background: #FFF4E8;
+}
+#content .content li>div:nth-of-type(1){
+	width: 700px;
+	float: left;
+	height: 100%;
+	padding: 13px 0 0 27px;
+	box-sizing: border-box;
+}
+#content .content li>div:nth-of-type(1) input{
+	float: left;
+	position: relative;
+	top: 30px;
+}
+#content .content li>div:nth-of-type(1) a{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 0 20px;
+}
+#content .content li>div:nth-of-type(1) p{
+	float: left;
+	width: 340px;
+	line-height: 25px;
+	margin-top:18px;
+}
+#content .content li>div:nth-of-type(2){
+	width: 160px;
+	float: left;
+	height: 100%;
+	line-height: 106px;
+	text-align: center;
+	color: #FF0000;
+}
+#content .content li>div:nth-of-type(3){
+	width: 80px;
+	float: left;
+	height: 40px;
+	margin: 40px 10px 0;
+}
+#content .content li>div:nth-of-type(3) a{
+	float: left;
+	width: 15px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	border: 1px solid #ccc;
+}
+#content .content li>div:nth-of-type(3) input{
+	float: left;
+	width: 26px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	height: 18px;
+	background: transparent;
+	text-align: center;
+	padding: 0 10px;
+}
+#content .content li>div:nth-of-type(3) span{
+	float: left;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: #999;
+}
+#content .content li>div:nth-of-type(4){
+	width: 120px;
+	float: left;
+	height: 100%;
+	line-height: 106px;
+	text-align: center;
+	color: #FF0000;
+}
+#content .content li>div:nth-of-type(5){
+	width: 118px;
+	float: left;
+	height: 100%;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+#content .content li>div:nth-of-type(5) a{
+	width: 100%;
+	height: 20px;
+	float: left;
+	color: #666;
+}
+#content .content li>div:nth-of-type(5) a:hover{
+	color: #FF6634;
+}
+#content .close{
+	width: 1180px;
+	height: 50px;
+	padding-left: 18px;
+	border: 1px solid #ccc;
+	float: left;
+	margin: 20px 0 0 ;
+}
+#content .close>div:nth-of-type(1){
+	width: 60px;
+	height: 50px;
+	text-align: center;
+	float: left;
+	line-height: 50px;
+}
+#content .close>div:nth-of-type(1) input{
+	position: relative;
+	top: 2px;
+}
+#content .close>a{
+	width: 120px;
+	float: left;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+#content .close>button{
+	float: right;
+	width: 100px;
+	height: 50px;
+	background: #FF6634;
+	color: #fff;
+	cursor: pointer;
+}
+#content .close>div:nth-of-type(2){
+	float: right;
+	width: 300px;
+	height: 40px;
+	padding: 10px 50px 0;
+}
+#content .close>div:nth-of-type(2) p{
+	position: relative;
+	float: left;
+	font-size: 12px;
+	padding: 0 20px 0 0;
+	color: #666;
+	height: 20px;
+	line-height: 20px;
+}
+#content .close>div:nth-of-type(2) em{
+	position: absolute;
+	cursor: pointer;
+	right: 5px;
+	top: 7px;
+	width: 12px;
+	height: 6px;
+	background: url(../img/xbt.png)no-repeat -160px -160px;
+}
+#content .close>div:nth-of-type(2) i{
+	color: #F01511;
+	font-size: 14px;
+}
+#content .close>div:nth-of-type(2) span{
+	width: 280px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	color: #666666;
+	font-size: 12px;
+	text-align: right;
+	padding-right: 30px;
+}

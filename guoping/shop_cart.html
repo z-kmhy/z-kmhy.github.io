@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/course.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shop_cart.css"/>
+	</head>
+	<body>
+		<!--head start-->
+		<div id="head">
+		
+			<div class="head-container">
+				<div class="head-left">
+					<span>欢迎来到国平商城！</span>
+					<div class="login">
+						<span>Hi					
+						</span>
+						<a href="login.html">请登陆</a>
+					</div>
+					<a href="register.html">免费注册</a>
+				</div>
+				<div class="head-right">
+					<ul>
+						<li>服务热线：020-66666666</li>
+						<li><a href="javascript:;"><span class="head-right-nav-left"></span>网站导航<span class="head-right-nav-right"></span></a></li>
+						<li ><a href="user.html" ><span class="vip"></span>会员中心</a></li>
+						<li ><a href="order.html" ><span class="my-order"></span>我的订单</a></li>
+						<li><a href="user.html">我的国平<span class="my-gp"></span></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--head end-->
+		<!--logo start-->
+		<div id="logo">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png"/></a>
+			</div>
+			<div class="search">
+				<div class="seek">
+					<div class="seek-s">
+						<div class="classify"><a href="javascript:;">全部分类<span></span></a></div>
+						<input type="text" />
+						<button><a href="javascript:;">搜索</a></button>
+					</div>
+					<div class="boon"><a href="javascript:;"><span></span>福利</a></div>
+					<div class="send"><a href="javascript:;"><span></span>全区送货上门</a></div>
+					<div class="cart"><a href="shop_cart.html"><span></span>购物车</a></div>
+				</div>
+				<div class="hotsearch">热门搜索 ：&emsp;<a href="shop_list.html">汽车装饰</a><a href="shop_list.html">汽车配件</a><a href="shop_list.html">汽车车载</a><a href="shop_list.html">汽车保养</a></div>
+			</div>
+		</div>
+		<!--nav-->
+		<div id="nav">
+			<div class="nav">
+				<ul>
+					<li class="sort">
+						<a href="shop_list.html" class="ify">商品服务分类</a>
+						<div class="menu">
+							<ul>
+								<li class="hot-sale" @mouseenter=""><h4><span></span>热卖推荐</h4>
+									<a href="javascript:;">驾乘个人用品</a>
+									<a href="javascript:;">外饰加装</a>
+									<a href="javascript:;">防护</a>
+									<a href="javascript:;">车载手机支架</a>
+									<a href="javascript:;">打气筒</a>
+								</li>
+								<li class="drive-gear"><h4><span></span>传动系配件</h4>
+									<a href="javascript:;">飞轮</a>
+									<a href="javascript:;">压盘</a>
+									<a href="javascript:;">离合器片</a>
+									<a href="javascript:;">轮毂</a>
+									<a href="javascript:;">变速器</a>
+									<a href="javascript:;">变速换挡操纵机构</a>
+								</li>
+								<li class="brake"><h4><span></span>制动系配件</h4>
+									<a href="javascript:;">制动总泵</a>
+									<a href="javascript:;">制动分泵</a>
+									<a href="javascript:;">刹车盘</a>
+									<a href="javascript:;">真空助力器</a>
+									<a href="javascript:;">制动踏板总成</a>
+								</li>
+								<li class="steering"><h4><span></span>转向系配件</h4>
+									<a href="javascript:;">转向节</a>
+									<a href="javascript:;">方向机</a>
+									<a href="javascript:;">方向柱</a>
+									<a href="javascript:;">方向盘</a>
+									<a href="javascript:;">转向拉杆</a>
+								</li>
+								<li class="oil"><h4><span></span>燃油系配件</h4>
+									<a href="javascript:;">飞轮</a>
+									<a href="javascript:;">压盘</a>
+									<a href="javascript:;">离合器片</a>
+									<a href="javascript:;">轮毂</a>
+									<a href="javascript:;">变速器</a>
+									<a href="javascript:;">变速换挡操纵机构</a>
+								</li>
+								<li class="instrument"><h4><span></span>电气仪表系配件</h4>
+									<a href="javascript:;">转向节</a>
+									<a href="javascript:;">方向机</a>
+									<a href="javascript:;">方向柱</a>
+									<a href="javascript:;">方向盘</a>
+									<a href="javascript:;">转向拉杆</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="#sale">团购</a></li>
+					<li><a href="#sale">限时购买</a></li>
+					<li><a href="#sale">最新产品</a></li>
+					<li><a href="#sale">每日精选</a></li>
+					<li><a href="#sale">热门购买</a></li>
+				</ul>
+			</div>
+		</div>
+	<!--head end-->
+		<!--course start   进程-->
+		<div id="course">
+			<div>
+				<span class="active-bg-color">1<i class="com-bg-color"></i></span>
+				<p>查看购物车</p>
+			</div>
+			<div>
+				<span class="com-bg-color">2<i class="com-bg-color"></i></span>
+				<p>确认订单信息</p>
+			</div>
+			<div>
+				<span class="com-bg-color">3<i class="com-bg-color"></i></span>
+				<p>支付</p>
+			</div>
+			<div>
+				<span class="com-bg-color">4</span>
+				<p>完成</p>
+			</div>
+		</div>
+		<!--course end-->
+		<!--address start-->
+		<div class="address">
+			<span>购物车</span>
+			<i>配送至:</i>
+			<div>
+				<p>广州市天河区</p>
+				<em></em>
+			</div>
+		</div>
+		<!--address-->
+		<div id="card-nav">
+			<div>
+				<input type="checkbox" />
+				全选
+			</div>
+			<div>商品</div>
+			<div>单价（元）</div>
+			<div>数量</div>
+			<div>小计（元）</div>
+			<div>操作</div>
+		</div>
+		
+		<!--content start-->
+		<div id="content">
+			<div class="content">
+				<ul>
+					<li>
+						<div>
+							<input type="checkbox" />
+							<a href="#"><img src="img/user-c-1.png"/></a>
+							<p>梦奇 车载香水挂件摆件悬挂式吊坠男士女士内饰汽车 用品装饰除异味精油 天使之吻-清新柠檬味</p>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">-</a>
+							<input type="text" name="" id="" value="1" maxlength="2"/>
+							<a href="javascript">+</a>
+							<span>有货</span>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">删除</a>
+							<a href="javascript">移到我的关注</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" />
+							<a href="#"><img src="img/user-c-2.png"/></a>
+							<p>觅铂（Milpro）汽车挂件 香水貔貅饰品香水吊坠  车内水晶挂件饰品-水晶葫芦</p>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">-</a>
+							<input type="text" name="" id="" value="1" maxlength="2"/>
+							<a href="javascript">+</a>
+							<span>有货</span>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">删除</a>
+							<a href="javascript">移到我的关注</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" />
+							<a href="#"><img src="img/user-c-3.png"/></a>
+							<p>巡游汽车葫芦香水挂件 汽车摆件 车载香水车内挂饰  汽车用品车上挂件 葫芦型香 </p>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">-</a>
+							<input type="text" name="" id="" value="1" maxlength="2"/>
+							<a href="javascript">+</a>
+							<span>有货</span>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">删除</a>
+							<a href="javascript">移到我的关注</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" />
+							<a href="#"><img src="img/user-c-4.png"/></a>
+							<p>拽猫车摆件卡通摇头公仔车用摆件黑绅士摇头汽车摆件  车品装饰保暖季</p>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">-</a>
+							<input type="text" name="" id="" value="1" maxlength="2"/>
+							<a href="javascript">+</a>
+							<span>有货</span>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">删除</a>
+							<a href="javascript">移到我的关注</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" />
+							<a href="#"><img src="img/user-c-5.png"/></a>
+							<p>拽猫车摆件卡通摇头公仔车用摆件黑绅士摇头汽车摆件  车品装饰保暖季</p>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">-</a>
+							<input type="text" name="" id="" value="1" maxlength="2"/>
+							<a href="javascript">+</a>
+							<span>有货</span>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">删除</a>
+							<a href="javascript">移到我的关注</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" />
+							<a href="#"><img src="img/user-c-6.png"/></a>
+							<p>豫香 卡通公仔竹炭包 除甲醛汽车除味碳包长嘴狗车 内饰品车载摆件 狗炭包 单个 红色</p>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">-</a>
+							<input type="text" name="" id="" value="1" maxlength="2"/>
+							<a href="javascript">+</a>
+							<span>有货</span>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">删除</a>
+							<a href="javascript">移到我的关注</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" />
+							<a href="#"><img src="img/user-c-7.png"/></a>
+							<p>觅铂（Milpro）汽车挂件 佛家箴言饰品汽车内饰福 葫芦车载吊饰 平安挂件-貔貅</p>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">-</a>
+							<input type="text" name="" id="" value="1" maxlength="2"/>
+							<a href="javascript">+</a>
+							<span>有货</span>
+						</div>
+						<div>￥536.40</div>
+						<div>
+							<a href="javascript">删除</a>
+							<a href="javascript">移到我的关注</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="close">
+				<div>
+					<input type="checkbox" />
+					全选
+				</div>
+				<a href="javascript:;">删除选中的商品</a>
+				<a href="javascript:;">移到我的关注</a>
+				<button>去结算</button>
+				<div>
+					<p>已选择<i>2</i>件商品<em></em></p>
+					<p>总价（不含运费） ：<i>￥1072.80</i></p>
+					<span>已节省：-￥0.00</span>
+				</div>
+			</div>
+		</div>
+		<!--content end-->
+		<!--recommend start  推荐-->
+		<div id="recommend">
+			<div class="subhead">
+				<h5>猜你喜欢</h5>
+				<p>爆款单品，看了又看！</p>
+				<ul>
+					<li><a href="#">汽车装饰</a></li>
+					<li><a href="#">美容清洗</a></li>
+					<li><a href="#">汽车零件</a></li>
+					<li><a href="#">维修保养</a></li>
+					<li><a href="#">其他</a></li>
+					<li><a href="#">更多</a></li>
+				</ul>
+			</div>
+			<div class="recommend-list border-no">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/recommend-16.png"/>
+						</a>
+						<p>琉璃阿弥陀佛佛像车内饰品车...</p>
+						<span>￥66.00</span>
+						<p>已有<i>3100+</i>人评价</p>
+						<div>
+							<a href="#"><em></em>加入购物车</a>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/recommend-17.png"/>
+						</a>
+						<p>小和尚摆件摆饰摇头四不打拳...</p>
+						<span>￥123.00</span>
+						<p>已有<i>3100+</i>人评价</p>
+						<div>
+							<a href="#"><em></em>加入购物车</a>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/recommend-18.png"/>
+						</a>
+						<p>貔貅汽车挂饰吊坠车上汽车用...</p>
+						<span>￥612.00</span>
+						<p>已有<i>3100+</i>人评价</p>
+						<div>
+							<a href="#"><em></em>加入购物车</a>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/recommend-19.png"/>
+						</a>
+						<p>摇头弥勒佛像卡通车上小和尚可...</p>
+						<span>￥122.00</span>
+						<p>已有<i>31100+</i>人评价</p>
+						<div>
+							<a href="#"><em></em>加入购物车</a>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/recommend-20.png"/>
+						</a>
+						<p>车用爱国摆饰装饰 汽车摆件...</p>
+						<span>￥66.00</span>
+						<p>已有<i>3213+</i>人评价</p>
+						<div>
+							<a href="#"><em></em>加入购物车</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--recommend end-->
+		<!--footer-->
+		<div id="footer">
+			<div>
+				<dl>
+					<dt><a href="register.html">新手指南</a></dt>
+					<dd><a href="register.html">会员制度</a></dd>
+					<dd><a href="register.html">注册新用户</a></dd>
+					<dd><a href="register.html">买家入门</a></dd>
+					<dd><a href="register.html">卖家入门</a></dd>
+					<dd><a href="register.html">用户协议</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="javascript:;">配送说明</a></dt>
+					<dd><a href="javascript:;">配送范围</a></dd>
+					<dd><a href="javascript:;">配送时间</a></dd>
+					<dd><a href="javascript:;">配送运费</a></dd>
+					<dd><a href="javascript:;">配送安全</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="javascript:;">支付方式</a></dt>
+					<dd><a href="javascript:;">送货上门</a></dd>
+					<dd><a href="javascript:;">在线支付</a></dd>
+					<dd><a href="javascript:;">线下付款</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="javascript:;">售后服务</a></dt>
+					<dd><a href="javascript:;">服务承诺</a></dd>
+					<dd><a href="javascript:;">退换货政策</a></dd>
+					<dd><a href="javascript:;">提货货流程</a></dd>
+					<dd><a href="javascript:;">退款说明</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="javascript:;">服务保障</a></dt>
+					<dd><a href="javascript:;">真品防伪</a></dd>
+					<dd><a href="javascript:;">20天无条件退货</a></dd>
+					<dd><a href="javascript:;">7*12小时贴心服务</a></dd>
+					<dd><a href="javascript:;">卖家入门</a></dd>
+					<dd><a href="javascript:;">绑定支付宝</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="javascript:;">关于我们</a></dt>
+					<dd><a href="javascript:;">了解国平网</a></dd>
+					<dd><a href="javascript:;">招兵买马</a></dd>
+					<dd><a href="javascript:;">联系我们</a></dd>
+					<dd><a href="javascript:;">隐私声明</a></dd>
+					<dd><a href="javascript:;">友情链接</a></dd>
+				</dl>
+				<dl class="QR">
+					<dt><a href="javascript:;">微信公众号二维码</a></dt>
+					<dd><img src="img/ewm.png"/></dd>
+				</dl>
+			</div>
+			<div class="copyright">
+				<p>© 国平网 2017-2018 GuoPingWang.com.cn All Rights Reserved 渝ICP备12001769号-1 1</p>
+				<p><a href='javascript:;'>关于国平网</a>   |  <a href='javascript:;'>联系我们 </a> |  <a href='javascript:;'>欢迎合作</a>  |  <a href='javascript:;'>著作权与商标声明 </a> |  <a href='javascript:;'>法律声明</a>  |  <a href='javascript:;'>服务条款</a>  |  <a href='javascript:;'>隐私声明</a>  </p>
+			</div>
+		</div>
+		<!--footer end-->
+	</body>
+</html>

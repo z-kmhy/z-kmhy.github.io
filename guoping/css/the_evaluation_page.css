@@ -1,0 +1,261 @@
+#content{
+	width: 1200px ;
+	margin: 0 auto 30px;
+	overflow: hidden;
+}
+#content .content{
+	width: 960px;
+	float:right;
+	
+}
+#content .content h2{
+	float: left;
+	font-size: 18px;
+	height: 70px;
+	line-height: 70px;
+	padding-left: 20px;
+}
+#content .content .con-top{
+	float: left;
+	width: 100%;
+}
+#content .content .con-nav{
+	float: left;
+	color: #666 ;
+}
+#content .content .con-nav p{
+	float: left;
+	text-align: center;
+	line-height: 30px;
+}
+#content .content .con-nav p:nth-of-type(1){
+	width: 500px;
+	height: 30px;
+	text-indent: 60px;
+	text-align: left;
+}
+#content .content .con-nav p:nth-of-type(2){
+	width: 120px;
+	height: 30px;
+}
+#content .content .con-nav p:nth-of-type(3){
+	width: 120px;
+	height: 30px;
+}
+#content .content .con-nav p:nth-of-type(4){
+	width: 110px;
+	height: 30px;
+}
+#content .content .con-nav p:nth-of-type(5){
+	width: 110px;
+	height: 30px;
+}
+#content .content .con-ify{
+	float: left;
+	width: 958px;
+	height: 155px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+}
+#content .content .con-ify>div{
+	float: left;
+	width: 500px;
+	padding: 16px 40px 20px 10px;
+	box-sizing: border-box;
+}
+#content .content .con-ify>div a{
+	float: left;
+	width: 120px;
+	height: 120px;
+}
+#content .content .con-ify>div p{
+	float: left;
+	width: 280px;
+	height: 21px;
+	line-height: 21px;
+	padding: 20px;
+}
+#content .content .con-ify>div div{
+	float: left;
+	position: relative;
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-indent: 10px;
+	margin: 23px 0 0 20px;
+}
+#content .content .con-ify>div em{
+	position: absolute;
+	left: 5px;
+	top: 8px;
+	width: 14px;
+	height: 14px;
+	background: url(../img/xbt.png)no-repeat -80px -160px;
+}
+#content .content .con-ify span{
+	color: #666;
+	float: left;
+	margin-top:70px;
+	text-align: center;
+}
+#content .content .con-ify span:nth-of-type(1){
+	width: 120px;
+}
+#content .content .con-ify span:nth-of-type(2){
+	width: 120px;
+}
+#content .content .con-ify span:nth-of-type(3){
+	width: 110px;
+}
+#content .content .con-ify>a{
+	margin-top: 70px;
+	text-align: center;
+	float: left;
+	color: #F01511;
+	width: 108px;
+	border: none;
+}
+.content .con-bottom{
+	width: 960px;
+	height: 550px;
+	float: left;
+}
+.content .con-bottom .option{
+	width: 958px;
+	height: 178px;
+	border: 1px solid #ccc;
+	background: #eee;
+	border-top: none;
+}
+.option>div:nth-of-type(1){
+	float: left;
+	width: 165px;
+	height: 177px;
+	border-top: 3px solid #b90101;
+	margin: -1px 0 0 -1px;
+	padding: 19px 10px 22px 18px;
+	box-sizing: border-box;
+}
+.option>div:nth-of-type(1) div{
+	color: #b90101;
+	padding-top: 40px;
+	width: 133px;
+	height: 133px;
+	border: 1px solid #ccc;
+	text-align: center;
+	box-sizing: border-box;
+}	
+.option>div:nth-of-type(1) div p{
+	font-size: 30px;
+}
+.option>div:nth-of-type(2){
+	padding-top:30px ;
+	float: left;
+	width: 700px;
+	height: 100%;
+	box-sizing: border-box;
+}
+.option>div:nth-of-type(2) button{
+	width: 128px;
+	height: 20px;
+	border: 1px solid #ccc;
+	background: #fff;
+	font-size: 12px;
+	float: left;
+	margin: 10px 4px;
+	cursor: pointer;
+}
+.mark{
+	width: 958px;
+	height: 370px;
+	background: #fdfaf5;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	color: #666;
+}
+.mark>div:nth-of-type(1){
+	width: 100%;
+	height: 120px;
+	float: left;
+	padding-top:20px;
+	box-sizing: border-box;
+}
+.mark>div:nth-of-type(1) div{
+	width: 150px;
+	height: 100%;
+	float: left;
+	text-indent: 15px;
+	text-align: center;
+}
+.mark>div:nth-of-type(1) div em{
+	color: #FF0000;
+	padding: 0 20px;
+}
+.mark>div:nth-of-type(1) p{
+	height: 30px;
+	/*line-height: 30px;*/
+	width: 800px;
+	float: left;
+}
+.mark>div:nth-of-type(1) p span{
+	width:18px;
+	height: 18px;
+	float: left;
+	background: url(../img/xbt.png)no-repeat -120px -160px;
+	cursor: pointer;
+}
+.mark>div:nth-of-type(1) p i{
+	float: left;
+	width: 75px;
+	height: 30px;
+	text-align: right;
+	margin-right: 10px;
+}
+.mark>div:nth-of-type(2){
+	width: 100%;
+	height: 250px;
+	float: left;
+	box-sizing: border-box;
+}
+.mark>div:nth-of-type(2) div{
+	width: 150px;
+	height: 100%;
+	float: left;
+	text-indent: 15px;
+	text-align: center;}
+.mark>div:nth-of-type(2) div em{
+	color: #FF0000;
+	padding: 0 20px;
+}
+.mark>div:nth-of-type(2) textarea{
+	width: 748px;
+	height: 148px;
+	border: 1px solid #ccc;
+	outline: none;
+	resize: none;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 10px;
+	float: left;
+}
+.mark>div:nth-of-type(2) span{
+	float: left;
+	width: 730px;
+	text-align: right;
+	margin: 10px;
+}
+.mark>div:nth-of-type(2) button{
+	position: relative;
+	cursor: pointer;
+	left: 640px;
+	float: left;
+	background: #b90101;
+	
+	color: #fff;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 3px;
+}
