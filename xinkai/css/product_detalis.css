@@ -1,0 +1,139 @@
+/*BANNER START*/
+.banner{
+	width: 100%;
+	height: 600px;
+	background: url(../img/product_detalis.png);
+}
+/*BANNER END*/
+/*NAME START*/ 
+.name{
+	width: 100%;
+	height: 60px;
+	font-size: 20px;
+	line-height: 60px;
+	background: #e6e6e6;
+}
+.name p{
+	width: 1200px;
+	margin: 0 auto;
+	font-weight: block;
+	color: #333;
+}
+/*NAME END*/
+/*CONTENT START*/
+.content{
+	overflow: hidden;
+	width: 1200px;
+	margin: 30px auto 0 auto;
+}
+.content-left{
+	position: relative;
+	float: left;
+	width: 600px;
+}
+.content-left div img{
+	width: 585px;
+	height: 585px;
+	border: 1px solid #ccc;
+	padding: 6.5px;
+	z-index: 0;
+}
+.content-left ul li{
+	float: left;
+	margin-right: 3px;
+}
+.content-left ul li:hover{
+	cursor: pointer;
+}
+.content-left ul li img {
+	padding: 9px;
+	width:175px;
+	height: 175px;
+	border: 2px solid transparent;
+	}
+.content-left ul li img:hover,.content-left .active{
+	border:2px solid #874000;
+}
+.content-right{
+	float: right;
+	width: 580px;
+	padding-left: 20px; 
+	font-size: 20px;
+}
+.content-right h2{
+	font-weight: normal;
+	font-size: 24px;
+	color: #333;
+}
+.content-right li{
+	height: 60px;
+	line-height: 60px;
+}
+.content-right span{
+	color: #808080;
+}
+.introduce span{
+	width: 100px;
+	height: 300px;
+	float: left;
+}
+.introduce p{
+	padding-left: 0;
+	margin-bottom: 30px;
+}
+/*CONTENT END*/
+/*PAGE START*/
+.pages{
+	width: 1200px;
+	height: 50px;
+	margin:70px auto 80px auto;
+	font-size: 20px;
+}
+.pages li{
+	float: left;
+	width: 500px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 50px;
+}
+.pages li:first-child{
+	text-align: right;
+}
+.pages a:hover{
+	color: #874000;
+}
+.pages span{
+	color: #808080;
+}
+/*PAGE END*/
+.background{
+	background: #e6e6e6;
+}
+/*RECOMMEND START*/
+.recommend{
+	width: 1200px;
+	height: 500px;
+	margin: 30px auto 0 auto;
+	text-align: center;
+}
+.recommend li{
+	border: 1px solid transparent;
+	float: left;
+	width: 398px;
+	height: 418px;
+}
+.recommend li p{
+	width: 398px;
+	height: 38px;
+	line-height: 38px;
+}
+.recommend li:hover p{
+	background: #874000;
+	color: #fff;
+}
+.recommend li:hover{
+	box-shadow: 0 0 5px 5px #c9c9c9;
+	border: 1px solid #ccc;
+}
+
+/*RECOMMEND END*/

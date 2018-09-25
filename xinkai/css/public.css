@@ -1,0 +1,245 @@
+/*预设样式*/
+body{
+	margin: 0;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	background: #f2f2f2;
+	color: #333;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:active{
+	outline: none;
+}
+a:focus{
+	outline:none;
+}
+input{
+	padding-left: 5px;
+	font-size: 14px; 
+}
+input:focus{
+	outline: none;
+}
+dl,ul,li,p,dt,dd,h1,h2,h3,h4{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: none;
+	outline: none;
+}
+/*公共样式*/
+.bod{
+	border: 1px solid red;
+}
+/*HEADER START*/
+.header{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.header div{
+	float: left;
+	width: 218px;
+	height: 54px;
+	margin-top: 25px;
+}
+.header ul{
+	float: right;
+	width: 800px;
+	height: 100px;
+	text-align: center;
+}
+.header li{
+	float: left;
+	width: 159px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 20px;
+	border-left:  1px solid #999;
+	margin-top: 65px;
+}
+.header li:first-child {
+	border-left: none;
+}
+.header li a{
+	display: block;
+	width: 100%;
+	height: 20px;
+}
+.header li a.active,.header li a:hover{
+	color: #e4b080;
+}
+/*HEADER END*/
+/*LOCATION START*/
+.location{
+	width: 1200px;
+	padding: 50px 0;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.location a:hover,.location span.active{
+	color: #874000;
+}
+/*LOCATION END*/
+/*TYPE START*/
+.type{
+	width: 1200px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	margin: 0 auto;
+}
+.type li{
+	float: left;
+	width: 150px;
+	height: 80px;
+}
+.type li a{
+	display: block;
+	width: 100%;
+	height: 80px;
+	color: #666;
+	font-size: 18px;
+}
+.type li a:hover,.type li a.active{
+	color: #fff;
+	background: #874000;
+	font-size: 20px;
+}
+/*TYPE END*/
+
+/*TITLE START*/
+.title dl{
+	width: 1200px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	margin: 0 auto;
+}
+.title dt{
+	float: left;
+	width: 100px;
+	height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.title dd{
+	float: right;
+	width: 100px;
+	height: 60px;
+	color: #999;
+	font-family: Arial;
+}
+.title dd a{
+	display: block;
+	width: 100%;
+	height: 60px;
+}
+.title dd:hover{
+	background: #874000;
+	color: #fff;
+}
+.title dd:hover a{
+	color: #fff;
+}
+/*TITLE END*/
+/*PAGE START*/
+.page{
+	width: 1200px;
+	margin: 20px auto 80px auto;
+	text-align: center;
+}
+.page li{
+	display: inline-block;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+.page .border0{
+	border: none;
+}
+.page li a{
+	display: block;
+	padding: 5px 15px;
+}
+.page li a:hover,.page li a.active{
+	color: #fff;
+	background: #874000;
+}
+.page input{
+	border: 1px solid gray;
+	width: 40px;
+	padding: 5px 0 5px 3px;
+	border-radius: 3px;
+	background: #f2f2f2;
+}
+.page .border-no{
+	border: 1px solid transparent;
+}
+.confirm{
+	cursor: pointer;
+}
+/*PAGE END*/
+
+/*FOOTER START*/
+.footer{
+	width: 100%;
+	height: 290px;
+	background: #e4b080;
+}
+.footer div{
+	width: 1200px;
+	height: 250px;
+	margin: 0 auto;
+}
+.footer dl{
+	float: left;
+	width: 190px;
+	height: 240px;
+	padding-left: 10px
+}
+.footer dt{
+	margin: 20px 0 5px 0; 
+	color: #333;
+}
+.footer dl dd{
+	width: 200px;
+	height: 25px;
+	line-height: 25px;
+}
+.footer dl a{
+	color: #666;
+}
+.attention{
+	text-align: center;
+}
+.footer .marginbtm{
+	margin-bottom:30px;
+}
+.footer .attention dd{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 0 0 10px;
+}
+.attention .text{
+	width: 200px;
+	margin: 20px auto; 
+	color: #333;
+}
+.footer .copyright{
+	width: 100%;
+	height: 40px;
+	background: #cb996c;
+	text-align: center;
+	color: #646464;
+	line-height: 40px;
+}
+/*FOOTER END*/
+
+
+

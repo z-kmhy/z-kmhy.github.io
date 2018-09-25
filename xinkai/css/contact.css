@@ -1,0 +1,114 @@
+
+/*BANNER START*/
+.banner{
+	width: 100%;
+	height: 600px;
+	background: url(../img/contact_1.png);
+}
+/*BANNER END*/
+/*MESSAGE START*/
+.message{
+	width: 1200px;
+	height: 475px;
+	margin:30px auto 0 auto;
+}
+.phone{
+	float: left;
+	width: 400px;
+	height: 475px;
+}
+.message h3{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.phone h4{
+	font-size: 16px;
+	margin: 0 0 30px 0;
+}
+.phone p{
+	margin-bottom: 10px;
+	height: 40px;
+	font-size: 16px;
+	color: #666;
+}
+.board{
+	float: left;
+	width: 800px;
+	height: 475px;
+}
+.board p{
+	width: 400px;
+	height: 40px;
+}
+.board .message-content{
+	overflow: hidden;
+	width: 800px;
+	height:140px;
+}
+.board div{
+	float: left;
+	width: 400px;
+	height: 100px;
+}
+.board div input{
+	font-family: 微软雅黑;
+	border: 1px solid #ababab;
+	width: 380px;
+	background: #f2f2f2;
+	padding: 10px 5px;
+}
+.board .message-content textarea{
+	font-family: 微软雅黑;
+	font-size: 14px;
+	border: 1px solid #ababab;
+	width: 775px;
+	height: 80px;
+	background: #f2f2f2;
+	outline: none;
+	resize: none;
+	padding-left: 5px;
+}
+.board .verification{
+	float: left;
+	width: 800px;
+	height: 60px;
+}
+.board .verification input{
+	width: 100px;
+
+}
+.board .verification img{
+	position: relative;
+	top: 15px;
+}
+.board .verification a{
+	color: red;
+	font-size: 12px;
+}
+.submit{
+	float: left;
+	margin-top: 20px;
+	width: 175px;
+	height: 40px;
+	color: #fff;
+}
+.submit input{
+	display: block;
+	width: 100%;
+	height: 40px;
+	background: #874000;
+	color: #fff;
+	border: none;
+	border-radius:5px 5px 5px 5px;
+	cursor: pointer;
+}
+/*MESSAGE END*/
+/*MAP START*/
+.map{
+	display: block;
+	width: 700px;
+	height: 500px;
+	margin: 20px auto;
+
+}
+/*MAP END*/

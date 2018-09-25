@@ -1,0 +1,107 @@
+/*BANNER START*/
+.banner{
+	width: 100%;
+	height: 600px;
+	background: url(../img/news_details.png);
+}
+.banner span{
+	position:relative;
+	top: 160px;
+	left: 1100px;
+	font-size: 60px;
+	color: #2b1800;
+}
+/*BANNER END*/
+
+/*PAGE START*/
+.flip{
+	width: 1200px;
+	height: 21px;
+	padding: 17px 0 17px 30px;
+	margin:0 auto 30px auto;
+	font-size: 16px;
+	color: #808080;
+}
+.flip li{
+	float: left;
+	width: 370px;
+	text-align: left;
+}
+.flip a:hover{
+	color: #874000;
+}
+.flip span{
+	color: #333;
+}
+/*PAGE END*/
+/*HEADLINE START*/
+.headline{
+	width: 1200px;
+	height: 130px;
+	margin: 0 auto;
+}
+.headline h1{
+	font-style: normal;
+	font-size: 36px;
+}
+.headline p{
+	margin-top: 20px;
+	font-size: 16px;
+	color: #666;
+}
+/*HEADLINE END*/
+/*CONTENT START*/
+.content{
+	overflow: hidden;
+	width: 1200px;
+	margin:0 auto 30px auto;
+}
+.news{
+	float: left;
+	font-size: 20px;
+	width: 790px;
+	border-top: 1px solid #ccc;
+	line-height: 20px;
+}
+.news img{
+	margin-left: 40px;
+}
+.news p{
+	text-indent: 2em;
+	margin: 30px 0 20px 0;
+	line-height: 30px;
+}
+/*CONTENT END*/
+.dynamic{
+	float:right;
+	width: 380px;
+	height: 60px;
+	background: #ccc;
+	line-height: 60px;
+	font-size: 20px;
+}
+.dynamic dt{
+	float: left;
+	font-weight: bold;
+	width: 100px;
+	padding-left: 20px;
+}
+.dynamic dd{
+	float: right;
+	width: 100px;
+	padding-left: 20px;
+}
+.news-list{
+	float: right;
+	width: 380px;
+}
+
+.news-list li{
+	width: 380px;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0 20px 0;
+}
+.news-list li:hover a{
+	color: #874000;
+}
